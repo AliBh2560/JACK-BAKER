@@ -1,0 +1,8 @@
+.about-me-header h1,
+.about-me-header p {
+  color: black;
+}
+
+.about-me-header a {
+  color: red;
+}

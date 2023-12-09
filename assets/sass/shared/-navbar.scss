@@ -1,0 +1,36 @@
+.sm--nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: $bg-main;
+    padding: 0 $left-space 0 $left-space;
+    
+}
+
+
+
+
+.lg--nav {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: $bg-main;
+    padding: 0 $left-space 0 $left-space;
+
+
+
+}
+
+.lg--nav--list {
+    width: 80%;
+}
+
+.lg--nav--list ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10%;
+}
