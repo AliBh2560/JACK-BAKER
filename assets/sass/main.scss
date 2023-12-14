@@ -1,31 +1,41 @@
-@import "../sass/shared/-varible.scss";
-@import "../sass/shared/-normalize.scss";
-@import "../sass/shared/-navbar.scss";
-@import "./block/-home--header.scss";
-@import "../sass/block/-home--first-slider.scss";
-@import "../sass/block/-home--second-slider.scss";
-@import "../sass/block/-home--third-slider.scss";
-@import "../sass/shared/-footer.scss";
-@import "../sass/block/-work--header.scss";
-@import "../sass/block/-work--first-slider.scss";
-@import "../sass/block/-editors-pick--header.scss";
-@import "../sass/block/-editors-pick--form.scss";
-@import "../sass/block/-about-me--header.scss";
-@import "../sass/block/-book-me--header.scss";
+@import "../sass/shared/_varible.scss";
+@import "../sass/shared/_normalize.scss";
+@import "../sass/shared/_navbar.scss";
+@import "./block/_home--header.scss";
+@import "../sass/block/_home--first-slider.scss";
+@import "../sass/block/_home--second-slider.scss";
+@import "../sass/block/_home--third-slider.scss";
+@import "../sass/shared/_footer.scss";
+@import "../sass/block/_work--header.scss";
+@import "../sass/block/_work--first-slider.scss";
+@import "../sass/block/_editors-pick--header.scss";
+@import "../sass/block/_editors-pick--form.scss";
+@import "../sass/block/_about-me--header.scss";
+@import "../sass/block/_book-me--header.scss";
+
+
+
+
+
+
+
 
 
 
 @media screen and (min-width:964px) {
-    .book-me-header {
+
+
+    .home--first-slider {
         flex-direction: row;
-        align-items: center;
     }
-}
 
+    .home--first-slider_left {
+        width: 50%;
+    }
 
-
-
-@media screen and (min-width:964px) {
+    .home--first-slider_right {
+        width: 50%;
+    }
     .about-me-head {
         flex-direction: row;
     }
@@ -42,75 +52,9 @@
 
 
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:1200px) {
-
-
-
-    .editors-pick-form-bottom {
+    .book-me-header {
         flex-direction: row;
-    }
-
-}
-
-@media screen and (min-width:1200px) {
-    .work-header {
-        flex-direction: row;
-    }
-
-    .work-card:hover {
-        transform: translateY(-10px);
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-
-    .work-first-slider-top {
-        align-self: flex-start;
-    }
-
-    .work-first-slider-bottom {
-        align-self: flex-start;
-        padding: 0;
-    }
-
-    .work-first-slider__title {
-
-        align-self: flex-start;
-    }
-
-    .work-first-slider {
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-}
-
-
-@media screen and (min-width:964px) {
-
-
-    .home--first-slider {
-        flex-direction: row;
-    }
-
-    .home--first-slider_left {
-        width: 50%;
-    }
-
-    .home--first-slider_right {
-        width: 50%;
+        align-items: center;
     }
 }
 
@@ -179,5 +123,37 @@
     .footer3,
     .footer-logo {
         align-self: flex-end;
+    }
+    .work-header {
+        flex-direction: row;
+    }
+
+    .work-card:hover {
+        transform: translateY(-10px);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .work-first-slider-top {
+        align-self: flex-start;
+    }
+
+    .work-first-slider-bottom {
+        align-self: flex-start;
+        padding: 0;
+    }
+
+    .work-first-slider__title {
+
+        align-self: flex-start;
+    }
+
+    .work-first-slider {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .editors-pick-form-bottom {
+        flex-direction: row;
     }
 }

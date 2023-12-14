@@ -1,4 +1,1 @@
-<i class="fa-brands fa-lg fa-500px" style="color: #ffffff;">
-<i class="fa-brands fa-lg fa-instagram" style="color: #ffffff;">
-<i class="fa-brands fa-lg fa-facebook-f" style="color: #ffffff;"></i>
-font-family: "Poppins";
+https://demo.yootheme.com/wordpress/themes/jack-baker/
