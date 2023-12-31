@@ -1,0 +1,29 @@
+.footer {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-main;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 40px;
+}

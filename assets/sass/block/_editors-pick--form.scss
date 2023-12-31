@@ -1,0 +1,44 @@
+.editors-pick-form {
+    gap: 10px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-main;
+}
+
+
+
+.editors-pick-form h2 {
+    font-size: 2rem;
+}
+
+.editors-pick-form p {
+    color: $hover;
+}
+
+.editors-pick-form-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.em {
+    padding: 10px 0 10px $left-space;
+    width: 90%;
+    border: 1px solid $hover;
+    color: $hover;
+    background-color: $bg-main;
+}
+
+.sub {
+    background-color: white;
+    color: $bg-main ;
+    width: 120px;
+    padding: 10px 20px;
+    border: none;
+
+}

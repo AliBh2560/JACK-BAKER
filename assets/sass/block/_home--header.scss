@@ -1,0 +1,11 @@
+.header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: $left-space;
+    background-position: center center;
+    font-size: 1.4rem;
+    position: relative;
+    
+}

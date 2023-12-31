@@ -1,0 +1,34 @@
+.book-me-header {
+    background-color: $bg-main;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80vh;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-left: $left-space;
+
+}
+
+.book-me-header h1 {
+    font-size: 3rem;
+
+
+}
+
+.book-me-header-left {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 50%;
+}
+
+.book-me-header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 50%;
+}

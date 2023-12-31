@@ -1,0 +1,199 @@
+@import "../sass/shared/_varible.scss";
+@import "../sass/shared/_normalize.scss";
+@import "../sass/shared/_navbar.scss";
+@import "./block/_home--header.scss";
+@import "../sass/block/_home--first-slider.scss";
+@import "../sass/block/_home--second-slider.scss";
+@import "../sass/block/_home--third-slider.scss";
+@import "../sass/shared/_footer.scss";
+@import "../sass/block/_work--header.scss";
+@import "../sass/block/_work--first-slider.scss";
+@import "../sass/block/_editors-pick--header.scss";
+@import "../sass/block/_editors-pick--form.scss";
+@import "../sass/block/_about-me--header.scss";
+@import "../sass/block/_book-me--header.scss";
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:964px) {
+
+
+    .home--first-slider {
+        flex-direction: row;
+    }
+
+    .home--first-slider_left {
+        width: 50%;
+    }
+
+    .home--first-slider_right {
+        width: 50%;
+    }
+
+    .about-me-head {
+        flex-direction: row;
+    }
+
+    .about-me-header {
+        width: 50%;
+    }
+
+    .about-me-header-bottom-bg {
+        width: 50%;
+        height: 250vh;
+
+        background-position: center center;
+
+
+    }
+
+    .em {
+        width: 60%;
+    }
+
+    .editors-pick-form-bottom {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .book-me-header {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1200px) {
+    .header__title {
+        padding-left: 50%;
+    }
+
+    .sm--nav {
+
+        display: none;
+    }
+
+    .lg--nav {
+        display: flex;
+    }
+
+    a:hover {
+        color: $hover;
+        transition: 0.5s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .second-slider-end {
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+
+    .third-slider__title,
+    .third-slider__p {
+        color: transparent;
+        transition: 0.5s;
+
+    }
+
+    .third-slider:hover {
+        cursor: pointer;
+
+        .third-slider__p,
+        .third-slider__title {
+            color: white;
+            transition: 0.5s;
+        }
+
+    }
+
+    .footer {
+        padding: 50px $left-space ;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-bottom {
+
+        flex-direction: row;
+    }
+
+    .footer-top {
+
+        align-items: flex-start;
+    }
+
+    .sub:hover {
+
+        cursor: pointer;
+    }
+
+    .work-header {
+        flex-direction: row;
+    }
+
+    .work-card:hover {
+        transform: translateY(-10px);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .work-first-slider-top {
+        align-self: flex-start;
+    }
+
+    .work-first-slider-bottom {
+        align-self: flex-start;
+        padding: 0;
+    }
+
+    .work-first-slider__title {
+
+        align-self: flex-start;
+    }
+
+    .work-first-slider {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .editors-pick-form-bottom {
+        flex-direction: row;
+    }
+
+
+    .editors-pick-card-container h2,
+    .editors-pick-card-container p {
+        color: transparent !important;
+        transition: 0.5s;
+
+    }
+
+    .editors-pick-card-container:hover h2,
+    .editors-pick-card-container:hover p {
+        transition: 0.5s;
+
+        color: white !important;
+    }
+
+    .editors-pick-card-container h2 {
+
+        font-size: 3rem;
+    }
+
+}

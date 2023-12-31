@@ -1,0 +1,24 @@
+.second-slider {
+    padding: 80px $left-space ;
+    background-color: $bg-main;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-position: center center;
+
+
+}
+
+.second-slider__title {
+    font-size: 2rem;
+}
+
+.second-slider-center,
+.second-slider-end {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
